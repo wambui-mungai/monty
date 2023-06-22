@@ -14,13 +14,13 @@ void f_queue(stack_t **head, unsigned int counter)
 }
 
 /**
- * addqueue - add node to tail stack
+ * addqueue - add node to the tail stack.
  *
- * @n: new_value.
+ @n: new_value.
  * @head: head of the stack.
  * Return: no return.
  */
-void addqueue(stack_t **head, int c)
+void addqueue(stack_t **head, int n)
 {
   stack_t *new_node, *aux;
 
@@ -30,7 +30,7 @@ void addqueue(stack_t **head, int c)
     {
       printf("Error\n");
     }
-  new_node->c = c;
+  new_node->n = n;
   new_node->next = NULL;
   if (aux)
     {

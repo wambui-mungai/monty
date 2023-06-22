@@ -76,5 +76,5 @@ void free_stack(stack_t *head);
 void f_pchar(stack_t **head, unsigned int counter);
 void f_pstr(stack_t **head, unsigned int counter);
 void f_rotl(stack_t **head, unsigned int counter);
-void f_rotr(stack_t **head, _attribute_((unused)) unsigned int counter);
+void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 #endif
